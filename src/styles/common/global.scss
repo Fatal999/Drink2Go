@@ -1,0 +1,60 @@
+.page {
+  height: 100%;
+}
+
+.page__body {
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  background-color: $white;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $purple;
+  letter-spacing: 0.04em;
+}
+
+.button {
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 113px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: $purple;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #9070ec;
+}
+
+.button:focus {
+  background-color: #9070ec;
+  outline: none;
+}
+
+.button:active {
+  background-color: #593cac;
+}
+
+.button:disabled {
+  background-color: #bdbdbd;
+}

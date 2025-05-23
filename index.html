@@ -5,11 +5,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Drink2Go</title>
-  <link rel="preload" href="../../src/fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="../../src/fonts/Montserrat-Medium.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="../../src/fonts/Montserrat-SemiBold.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="../../src/fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../src/images/favicons/favicon.png">
+  <link rel="preload" href="./src/fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./src/fonts/Montserrat-Medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./src/fonts/Montserrat-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./src/fonts/Montserrat-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/favicons/favicon.png">
   <link rel="stylesheet" href="./src/vendor/nouislider.css">
   <link rel="stylesheet" href="./src/styles/styles.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,9 +20,9 @@
     <nav class="header__nav">
       <a class="header__link" href="index.html">
         <picture>
-          <source media="(min-width: 1440px)" width="170" height="36" srcset="../../src/images/icons/desktop-logo.svg">
-          <source media="(min-width: 768px)" width="82" height="36" srcset="../../src/images/icons/tablet-logo.svg">
-          <img class="header__link-image" src="../../src/images/icons/mobile-logo.svg" width="32" height="36"
+          <source media="(min-width: 1440px)" width="170" height="36" srcset="./src/icons/desktop-logo.svg">
+          <source media="(min-width: 768px)" width="82" height="36" srcset="./src/icons/tablet-logo.svg">
+          <img class="header__link-image" src="./src/icons/mobile-logo.svg" width="32" height="36"
             alt="Логотип Drink2Go.">
         </picture>
       </a>
@@ -60,10 +60,10 @@
   <main class="main">
     <section class="hero" data-test="hero">
       <button class="hero__arrow hero__arrow--left slider-button-prev" type="button">
-        <img class="hero__arrow-icon" src="../../src/icons/left-arr.svg" width="11" height="20" alt="Left arrow icon.">
+        <img class="hero__arrow-icon" src="./src/icons/left-arr.svg" width="11" height="20" alt="Left arrow icon.">
       </button>
       <button class="hero__arrow hero__arrow--right slider-button-next" type="button">
-        <img class="hero__arrow-icon" src="../../src/icons/right-arr.svg" width="11" height="20" alt="Right arrow icon.">
+        <img class="hero__arrow-icon" src="./src/icons/right-arr.svg" width="11" height="20" alt="Right arrow icon.">
       </button>
       <div class="hero__wrapper slider-pagination">
         <button class="hero__slider-button hero__slider-button--active" id="0" type="button"></button>
@@ -74,17 +74,17 @@
         <li class="hero__slider-item">
           <picture>
             <source type="image/webp" media="(min-width: 1440px)" width="600" height="600"
-              srcset="../../src/images/flat-white-desktop@1x.webp, ../../src/images/flat-white-desktop@2x.webp 2x">
+              srcset="./src/images/flat-white-desktop@1x.webp, ./src/images/flat-white-desktop@2x.webp 2x">
             <source type="image/webp" media="(min-width: 768px)" width="476" height="476"
-              srcset="../../src/images/flat-white-tablet@1x.webp, ../../src/images/flat-white-tablet@2x.webp 2x">
+              srcset="./src/images/flat-white-tablet@1x.webp, ./src/images/flat-white-tablet@2x.webp 2x">
             <source type="image/webp"
-              srcset="../../src/images/flat-white-mobile@1x.webp, ../../src/images/flat-white-mobile@2x.webp 2x">
+              srcset="./src/images/flat-white-mobile@1x.webp, ./src/images/flat-white-mobile@2x.webp 2x">
             <source media="(min-width: 1440px)" width="600" height="600"
-              srcset="../../src/images/flat-white-desktop@1x.png, ../../src/images/flat-white-desktop@2x.png 2x">
+              srcset="./src/images/flat-white-desktop@1x.png, ./src/images/flat-white-desktop@2x.png 2x">
             <source media="(min-width: 768px)" width="476" height="476"
-              srcset="../../src/images/flat-white-tablet@1x.png, ../../src/images/flat-white-tablet@2x.png 2x">
-            <img class="hero__slider-image" src="../../src/images/flat-white-mobile@1x.png"
-              srcset="../../src/images/flat-white-mobile@2x.png 2x" width="280" height="280" alt="Декаф Флэт Уайт.">
+              srcset="./src/images/flat-white-tablet@1x.png, ./src/images/flat-white-tablet@2x.png 2x">
+            <img class="hero__slider-image" src="./src/images/flat-white-mobile@1x.png"
+              srcset="./src/images/flat-white-mobile@2x.png 2x" width="280" height="280" alt="Декаф Флэт Уайт.">
           </picture>
           <span class="hero__sldier-badge badge">Новинка!</span>
           <h1 class="hero__slider-title">Декаф Флэт Уайт</h1>

@@ -255,25 +255,25 @@
   left: 0;
   width: 24px;
   height: 24px;
-  background-image: url("/icons/radio.svg");
+  background-image: url("public/icons/radio.svg");
   margin-right: 10px;
   background-color: #f8f8f8;
 }
 
 .catalog__milk-radio:checked+.catalog__milk-box {
-  background-image: url("/icons/radio-checked.svg");
+  background-image: url("public/icons/radio-checked.svg");
 }
 
 .catalog__milk-radio:disabled+.catalog__milk-box {
-  background-image: url("/icons/radio-disabled.svg");
+  background-image: url("public/icons/radio-disabled.svg");
 }
 
 .catalog__milk-radio:checked:disabled+.catalog__milk-box {
-  background-image: url("/icons/radio-disabled-checked.svg");
+  background-image: url("public/icons/radio-disabled-checked.svg");
 }
 
 .catalog__milk-radio:hover+.catalog__milk-box {
-  background-image: url("/icons/radio-hover.svg");
+  background-image: url("public/icons/radio-hover.svg");
   cursor: pointer;
 }
 
@@ -348,25 +348,25 @@
   left: 0;
   width: 42px;
   height: 24px;
-  background-image: url("/icons/toggle.svg");
+  background-image: url("public/icons/toggle.svg");
   margin-right: 10px;
   background-color: #f8f8f8;
 }
 
 .catalog__country-switch:checked+.catalog__country-slider {
-  background-image: url("/icons/toggle-checked.svg");
+  background-image: url("public/icons/toggle-checked.svg");
 }
 
 .catalog__country-switch:disabled+.catalog__country-slider {
-  background-image: url("/icons/toggle-disabled.svg");
+  background-image: url("public/icons/toggle-disabled.svg");
 }
 
 .catalog__country-switch:checked:disabled+.catalog__country-slider {
-  background-image: url("/icons/toggle-disabled-checked.svg");
+  background-image: url("public/icons/toggle-disabled-checked.svg");
 }
 
 .catalog__country-switch:hover+.catalog__country-slider {
-  background-image: url("/icons/toggle-hover.svg");
+  background-image: url("public/icons/toggle-hover.svg");
   cursor: pointer;
 }
 
@@ -499,7 +499,7 @@
   appearance: none;
   background-color: #f8f8f8;
   text-transform: lowercase;
-  background-image: url("/icons/sort-close.svg");
+  background-image: url("public/icons/sort-close.svg");
   background-position: 143px 10px;
   background-size: 10px 6px;
   background-repeat: no-repeat;
@@ -520,11 +520,11 @@
 .catalog__sort-select:focus {
   background-color: #f0ebff;
   outline: none;
-  background-image: url("/icons/sort-open.svg");
+  background-image: url("public/icons/sort-open.svg");
 }
 
 .catalog__sort-select:active {
-  background-image: url("/icons/sort-open.svg");
+  background-image: url("public/icons/sort-open.svg");
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -670,7 +670,7 @@
   width: 141px;
   min-height: 36px;
   padding-left: 46px;
-  background-image: url("/icons/basket-button");
+  background-image: url("public/icons/basket-button");
   background-size: 20px 16px;
   background-repeat: no-repeat;
   background-position: 20px 10px;

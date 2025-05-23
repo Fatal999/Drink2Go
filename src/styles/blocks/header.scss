@@ -198,7 +198,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url("/icons/burger-menu.svg");
+  background-image: url("public/icons/burger-menu.svg");
   background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: 22px 22px;
@@ -244,7 +244,7 @@
 }
 
 .header__button--open {
-  background-image: url("/icons/close-icon.svg");
+  background-image: url("public/icons/close-icon.svg");
 }
 
 .header__item--main {

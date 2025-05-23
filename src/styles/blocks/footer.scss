@@ -88,15 +88,15 @@
 }
 
 .footer__social-image--vk {
-  mask: url('/icons/vk-grey.svg') no-repeat center;
+  mask: url('../../src/icons/vk-grey.svg') no-repeat center;
 }
 
 .footer__social-image--pn {
-  mask: url('/icons/pin-grey.svg') no-repeat center;
+  mask: url('../../src/icons/pin-grey.svg') no-repeat center;
 }
 
 .footer__social-image--ok {
-  mask: url('/icons/ok-grey.svg') no-repeat center;
+  mask: url('../../src/icons/ok-grey.svg') no-repeat center;
 }
 
 .footer__social-link:hover {
@@ -253,7 +253,7 @@
   width: 260px;
   margin-bottom: 16px;
   margin-left: 20px;
-  background-image: url("../../icons/stack.svg#adress");
+  background-image: url("../../src/icons/stack.svg#adress");
   background-size: 13px 16px;
   background-repeat: no-repeat;
   background-position: 0 2px;
@@ -295,7 +295,7 @@
   min-height: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
-  background-image: url("../../icons/stack.svg#phone");
+  background-image: url("../../src/icons/stack.svg#phone");
   background-size: 13px 16px;
   background-repeat: no-repeat;
   background-position: 0 2px;

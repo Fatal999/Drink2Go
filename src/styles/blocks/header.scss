@@ -83,7 +83,7 @@
   width: 16px;
   height: 16px;
   background-color: $gray;
-  mask: url('Drink2Go/icons/user.svg') no-repeat center;
+  mask: url('../../src/icons/user.svg') no-repeat center;
   mask-size: contain;
   margin-right: 10px;
 
@@ -153,7 +153,7 @@
   width: 16px;
   height: 16px;
   background-color: $gray;
-  mask: url('/public/icons/basket.svg') no-repeat center;
+  mask: url('../../src/icons/basket.svg') no-repeat center;
   mask-size: contain;
   margin-right: 10px;
 
@@ -198,7 +198,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url("public/icons/burger-menu.svg");
+  background-image: url("../../src/icons/burger-menu.svg");
   background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: 22px 22px;
@@ -244,7 +244,7 @@
 }
 
 .header__button--open {
-  background-image: url("public/icons/close-icon.svg");
+  background-image: url("../../src/icons/close-icon.svg");
 }
 
 .header__item--main {

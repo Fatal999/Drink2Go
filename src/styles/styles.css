@@ -192,7 +192,7 @@
   width: 16px;
   height: 16px;
   background-color: #333333;
-  mask: url("/icons/user.svg") no-repeat center;
+  mask: url("./src/icons/user.svg") no-repeat center;
   mask-size: contain;
   margin-right: 10px;
 }
@@ -265,7 +265,7 @@
   width: 16px;
   height: 16px;
   background-color: #333333;
-  mask: url("/icons/basket.svg") no-repeat center;
+  mask: url("/public/icons/basket.svg") no-repeat center;
   mask-size: contain;
   margin-right: 10px;
 }
